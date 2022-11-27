@@ -1,0 +1,116 @@
+:root {
+    --mc: #0b1f85;
+    --sc: #fff;
+}
+
+body {
+    text-align: center;
+}
+
+#home {
+    background-image: url(../imgs/خلفية\ صيانة\ غسالات\ سامسونج.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100vh;
+}
+
+h2 {
+    color: var(--mc);
+    margin-top: 20px;
+}
+
+h3 {
+    color: var(--mc);
+    margin-top: 20px;
+}
+
+p {
+    color: var(--mc);
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+#b1 a,
+#sec-1 a,
+#contact a {
+    background-color: var(--mc);
+    color: var(--sc);
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#b1 a i,
+#sec-1 a i,
+#contact a i {
+    margin-right: 5px;
+}
+
+h4 {
+    color: var(--mc);
+}
+
+
+#sec-1 .carousel-item {
+    height: 200px;
+}
+
+#sec-1,
+#sec-2,
+#sec-3,
+#sec-4,
+#contact {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#sec-2 h1 {
+    color: red;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+#sec-4 i,
+#sec-5 i,
+#sec-6 i {
+    font-size: 50px;
+    color: var(--mc);
+    padding: 10px;
+}
+
+#sec-4 .card,
+#sec-5 .card,
+#sec-6 .card {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#part-2 {
+    background-color: var(--mc);
+    height: 50px;
+    display: grid;
+    align-content: center;
+}
+
+#part-2 p {
+    color: var(--sc);
+    font-weight: 100;
+
+}
+
+.cbtn {
+    font-size: 30px;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+
+.cbtn-1 {
+    font-size: 30px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
